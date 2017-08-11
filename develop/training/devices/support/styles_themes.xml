@@ -1,0 +1,14 @@
+<!-- Use Platform Styles and Themes -->
+
+<!-- To make your activity look like a dialog box -->
+<activity android:theme="@android:style/Theme.Dialog">
+
+<!-- To make your activity have a transparent background: -->
+<activity android:theme="@android:style/Theme.Translucent">
+
+<!-- To apply your own custom theme defined in /res/values/styles.xml: -->
+<activity android:theme="@style/CustomTheme">
+
+<!-- To apply a theme to your entire app (all activities),
+add the android:theme attribute to the <application> element: -->
+<application android:theme="@style/CustomTheme">
